@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- Header - Mobile -->
+    <div class="header-mobile header_sticky">
+
+        <!-- Header mobile -->
+        <div class="container d-flex align-items-center h-100">
+            
+            <!-- Nav button mobile -->
+            <a class="mobile-nav-activator d-block position-relative" href="#">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </a>
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="https://uomo-html.flexkitux.com/">
+                    <img src="images/logo/techgadgets-logo-transparent.png" width="250" alt="Uomo" class="logo__image d-block">
+                </a>
+            </div>
+        </div>
+        <!-- Header mobile -->
+
+        <nav class="header-mobile__navigation navigation d-flex flex-column w-100 position-absolute top-100 bg-body overflow-auto">
+
+            <div class="container">
+                <div class="overflow-hidden">
+
+                    <!-- Navigation -->
+                    <ul class="navigation__list list-unstyled position-relative">
+                        <li class="navigation__item">
+                            <a href="index.html" class="navigation__link js-nav-right d-flex align-items-center">Accueil<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="products.html" class="navigation__link js-nav-right d-flex align-items-center">Produits<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
+                        </li>
+
+                        <li class="navigation__item">
+                            <a href="contact.html" class="navigation__link js-nav-right d-flex align-items-center">Blog<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
+                        </li>
+                    </ul>
+                    <!-- Navigation -->
+
+                </div>
+            </div>
+
+            <div class="border-top mt-auto pb-2">
+                <div class="customer-links container mt-4 mb-2 pb-1">
+                    <span class="d-inline-block text-uppercase align-middle fw-medium">Suivez-nous</span>
+                </div>
+
+                <!-- Social medias -->
+                <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
+                    <li>
+                        <a href="#" class="footer__social-link d-block">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-link d-block">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-link d-block">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__social-link d-block">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social medias -->
+            </div>
+        </nav>
+    </div>
+    <!-- Header - Mobile -->
+
+    <!-- Header - Laptop -->
+    <header id="header" class="header header_sticky">
+        <div class="container">
+        <div class="header-desk header-desk_type_1">
+            <div class="logo">
+                <!-- logo -->
+                <a href="https://uomo-html.flexkitux.com/">
+                    <img src="images/logo/techgadgets-logo-transparent.png" width="250" alt="Uomo" class="logo__image d-block">
+                </a>
+            </div><!-- /.logo -->
+
+            <nav class="navigation">
+                <ul class="navigation__list list-unstyled d-flex">
+                    <li class="navigation__item">
+                        <a href="index.html" class="navigation__link">Accueil</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="products.html" class="navigation__link">Produits</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="contact.html" class="navigation__link">Nous contacter</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header - Laptop -->
+
+
+    <main>
+
+        <!-- Banner section -->
+        <section class="full-width_padding">
+            <div class="full-width_border border-2" style="border-color: #eeeeee;">
+                <div class="shop-banner position-relative ">
+                    <div class="background-img" style="background-color: #eeeeee;">
+                        <img loading="lazy" src="images/shop/shop_banner_character1.png" width="1759" height="420" alt="Pattern" class="slideshow-bg__img object-fit-cover">
+                    </div>
+        
+                    <div class="shop-banner__content container position-absolute start-50 top-50 translate-middle">
+                        <h2 class="stroke-text h1 smooth-16 text-uppercase fw-bold mb-3 mb-xl-4 mb-xl-5">Nos produits</h2>
+                        <ul class="d-flex flex-wrap list-unstyled text-uppercase h6">
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Dresses</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Shorts</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Sweatshirts</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Swimwear</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Jackets</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">T-shirts & Tops</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Jeans</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Trousers</a></li>
+                        <li class="me-3 me-xl-4 pe-1"><a href="#" class="menu-link menu-link_us-s">Men</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mb-4 pb-lg-3"></div>
+
+        <!-- Products list -->
+        <section class="shop-main container">
+        
+            <div class="products-grid row row-cols-2 row-cols-md-3 row-cols-lg-4" id="products-grid" >
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Cropped Faux Leather Jacket</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$29</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Calvin Shorts</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$62</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_3.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Kirby T-Shirt</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$17</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_4.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Cableknit Shawl</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$99</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_5.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Colorful Jacket</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$29</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_6.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Shirt In Botanical Cheetah Print</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$62</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#"><img loading="lazy" src="images/products/product_7.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Cotton Jersey T-Shirt</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$17</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_8.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Zessi Dresses</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$99</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_9.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Cropped Faux Leather Jacket</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$29</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_10.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Calvin Shorts</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$62</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_11.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Kirby T-Shirt</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$17</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_12.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="#">Cableknit Shawl</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$99</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_13.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Colorful Jacket</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$29</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_14.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Voir plus</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Shirt In Botanical Cheetah Print</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$62</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="images/products/product_15.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Cotton Jersey T-Shirt</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$17</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <div class="product-card-wrapper">
+                <div class="product-card mb-3 mb-md-4 mb-xxl-5">
+                    <div class="pc__img-wrapper">
+                        <div class="swiper-container background-img js-swiper-slider" data-settings='{"resizeObserver": true}'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="product1_simple.html"><img loading="lazy" src="../images/products/product_16.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
+                    </div>
+        
+                    <div class="pc__info position-relative">
+                        <p class="pc__category">Dresses</p>
+                        <h6 class="pc__title"><a href="product1_simple.html">Zessi Dresses</a></h6>
+                        <div class="product-card__price d-flex">
+                            <span class="money price">$99</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+            <hr>
+
+            <nav class="shop-pages d-flex justify-content-between mt-3" aria-label="Page navigation">
+                <a href="#" class="btn-link d-inline-flex align-items-center">
+                    <svg class="me-1" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_prev_sm" /></svg>
+                    <span class="fw-medium">PREV</span>
+                </a>
+                <ul class="pagination mb-0">
+                    <li class="page-item"><a class="btn-link px-1 mx-2 btn-link_active" href="#">1</a></li>
+                    <li class="page-item"><a class="btn-link px-1 mx-2" href="#">2</a></li>
+                    <li class="page-item"><a class="btn-link px-1 mx-2" href="#">3</a></li>
+                    <li class="page-item"><a class="btn-link px-1 mx-2" href="#">4</a></li>
+                </ul>
+                <a href="#" class="btn-link d-inline-flex align-items-center">
+                    <span class="fw-medium me-1">NEXT</span>
+                    <svg width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg>
+                </a>
+            </nav>
+        </section><!-- /.shop-main container -->
+
+        <div class="mb-5 pb-xl-5"></div>
+    </main>
+
+    <!-- Footer Laptop -->
+    <footer class="footer footer_type_1">
+        <div class="footer-middle container">
+            <div class="row row-cols-lg-5 row-cols-2">
+                <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="https://uomo-html.flexkitux.com/">
+                            <img src="images/logo/techgadgets-logo-transparent.png" width="250" alt="TechGadgets" class="logo__image d-block">
+                        </a>
+                    </div>
+                    <p class="footer-address">Zilimadjou, Moroni, BP 655, Comores</p>
+
+                    <p class="m-0">
+                        <strong class="fw-medium">info@example.com</strong>
+                    </p>
+                    <p>
+                        <strong class="fw-medium">+269 778-45-78</strong>
+                    </p>
+
+                    <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
+                        <li>
+                            <a href="#" class="footer__social-link d-block">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-link d-block">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-link d-block">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__social-link d-block">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <div class="d-block d-md-flex align-items-center">
+                <span class="footer-copyright me-auto">©2024 Uomo</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Laptop -->
+
+
+    <!-- External JavaScripts -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins/bootstrap-slider.min.js"></script>
+    <!-- <script src="js/plugins/jquery.waypoints.min.js"></script> -->
+    <!-- <script src="js/plugins/sticky.min.js"></script> -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <script src="js/plugins/countdown.js"></script>
+
+    <!-- Footer Scripts -->
+    <script src="js/theme.js"></script>
+</body>
+</html>
